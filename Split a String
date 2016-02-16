@@ -1,0 +1,20 @@
+public SplitString{
+
+  public static void main (String[] args){
+  
+    String str= new String("Name;Surname;Year;Adress");
+    
+    System.out.println("Return Value: ");
+    for(String spl= split(";",4)){
+      System.out.println(splt)
+    }
+  }
+}
+
+/* Console:
+Return Value
+Name
+Surname
+Year
+Adress
+*/
