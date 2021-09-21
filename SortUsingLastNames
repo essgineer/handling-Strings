@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;   
 import java.util.Comparator;  // look at: http://docs.oracle.com/javase/6/docs/api/java/util/Comparator.html 
-
+ 
 public class SortUsingLastNames{
 	public void sortLast(ArrayList<String> al) {
 		Collections.sort(al, new Comparator<String>() {
